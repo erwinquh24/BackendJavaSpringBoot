@@ -10,7 +10,7 @@ Kebutuhan aplikasi :
 Cara menjalankan aplikasi :
 1. Buka cmd pada path aplikasi, lalu ketik : mvn spring-boot:run
 
-Setelah itu, run query berikut pada DB:
+2. Setelah itu, run query berikut pada DB:
 INSERT INTO roles(name) VALUES('ROLE_USER');
 INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
 INSERT INTO roles(name) VALUES('ROLE_ADMIN');
