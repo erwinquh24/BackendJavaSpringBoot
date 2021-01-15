@@ -36,4 +36,15 @@ public class ProductController {
 
         return ResponseEntity.ok(product);
     }
+
+    @PostMapping("/product")
+    public ResponseEntity<?> registerProduct(@Valid @RequestBody Product product) {
+
+        log.info("Process save product");
+
+        if (product.getId() != null) return ResponseEntity.badRequest().body("Id Already Exist!");
+        productRepository.save(product);
+
+        return ResponseEntity.ok(product);
+    }
 }
