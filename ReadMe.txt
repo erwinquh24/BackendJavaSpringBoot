@@ -5,7 +5,7 @@ Kebutuhan aplikasi :
 	a. Nama DB : gtech2
 	b. Username : postgres
 	c. Password : postgres
-
+2. Java 8
 
 Cara menjalankan aplikasi :
 1. Buka cmd pada path aplikasi, lalu ketik : mvn spring-boot:run
